@@ -72,7 +72,7 @@ public class GuestBookController {
 			guestbookDao.delete(guestbookVo);
 			
 		}
-		return "redirect:/addList";
+		return "redirect:/List";
 		
 	}
 }
